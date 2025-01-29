@@ -9,34 +9,37 @@
 		*{
 			text-align: center;
 		}
-		.row{height: 60vh;
+		/* .row{height: 60vh;
 		text-decoration: none;
 	}
 	ul li{padding-top: 12vh;}
 		#content{
 			width: 66.6%;
-		}
+		} */
 	</style>
     
 </head>
 <body>
-	<nav class=" navbar-light bg-success">
+	<nav class=" navbar-light bg-success" style="height: 12vh;">
 		<h1 class="text-center p-4">JEE-64</h1>
 	</nav>
 	
-		<div class="row">
-			<div class="col-4 p-1 mb-2 bg-secondary text-white fs-2 fw-normal float-child">
+		<div class="row" style="height: 80vh;">
+			<div class="col-3 p-1 mb-2 bg-secondary text-white fs-2 fw-normal float-child">
 				<ul>
-					<li><a href="#" target="#">Home</a></li>
-					<li><a href="#" target="#">Form</a></li>
-					<li><a href="#" target="#">About</a></li>
+					<li><a href="home.html" target="mycontent">Home</a></li>
+					<li><a href="Form.html" target="mycontent">Form</a></li>
+					<li><a href="About.html" target="mycontent">About</a></li>
 				</ul>
 			</div>
 			<!-- <div class="col-8 float-right"> -->
-				<div  id="content" class="col-8 p-4 p-md-5 pt-5">
-					<iframe src="home.html" frameborder="0" name="mycontent"></iframe>
+				<div  id="content" class="col-9 p-4 p-md-5 pt-5">
+					<iframe src="home.html" frameborder="0" name="mycontent" style="width: 100%; height: 100%;"></iframe>
 			</div>
 		</div>
+
+		<footer class="bg-secondary" style="height: 8vh; text-align: center;">&#169 Rejaul Karim</footer> 
+
 
         <!-- <nav class="navbar navbar-light bg-success">
             <div class="container-fluid">
@@ -91,7 +94,7 @@
       <!-- </div>
 		</div> -->
          
-    <footer >&#169 Rejaul Karim</footer> 
+    
 
 
 
