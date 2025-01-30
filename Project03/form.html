@@ -8,21 +8,21 @@
   </head>
   <body>
 
-    <fieldset><legend>Registration Form</legend>
+    <fieldset class="bg-success text-warning"><legend class="container">Registration Form</legend>
     <div class="container">
         <form>
             <!-- first row start -->
            <div class="row mb-3">
             <div class="col-md-5">
                 <label class="form-label">name <small class="text-danger">*</small></label>
-                <input type="text" class="form-control" placeholder="rejaul" required>
+                <input type="text" class="form-control" placeholder="Rejaul Karim" required>
             </div>
             <div class="col-md-1 offset-md-1">
                 <hr class="vr h-100">
             </div>
             <div class="col-md-5">
                 <label class="form-label">email <small class="text-danger">*</small></label>
-                <input type="email" class="form-control" placeholder="email@email.com" required>
+                <input type="email" class="form-control" placeholder="cmrejaulkarim@hotmail.com" required>
             </div>
            </div> <!-- first row start -->
            <!-- second row -->
@@ -50,11 +50,15 @@
                 <div class="form-check">
                     <input type="radio" name="Gender"> Female
                 </div>
+                <div class="form-check">
+                    <input type="radio" name="Gender"> Others
+                </div>
                 <!-- radio end -->
             </div>
             <div class="col-md-1 offset-md-1">
                 <hr class="vr h-100">
             </div>
+
             <div class="col-md-5">
                 <label class="form-label">Hobby </label>
                 <div class="form-check">
@@ -68,8 +72,36 @@
                 <!-- checkbox -->
             </div>
            </div><!-- thire row -->
+            <!-- fourth row -->
+            <div class="row mb-3">
+                <div class="col-md-5">
+                <label class="form-label">Subject </label>
+                <!-- select -->
+                <select class="form-select">
+                    <option value="">--Select One--</option>
+                    <option value="">JEE</option>
+                    <option value="">NT</option>
+                    <option value="">WDPF</option>
+                </select><!-- select -->
+                </div>
 
-           <input type="submit" value="save" class="btn btn-primary">
+                <div class="col-md-1 offset-md-1">
+                    <hr class="vr h-100">
+                </div>
+
+                <div class="col-md-5">
+                    <label class="form-label">Nationality </label>
+                    <input type="text" class="form-control" value="Bangladeshi" readonly>
+                </div>
+
+            </div>
+            
+            
+
+
+
+
+           <input type="submit" value="save" class="btn btn-primary mt-3">
         </form>
     </div>
 </fieldset>
