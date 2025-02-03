@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #main{
+            height: 100vh;
+            width: 100%;
+            background-color: #1C7E29;
+        }
+        #left{
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+        #right{
+            width: 80%;
+            height: 100%;
+            float: right;
+        }
+        #cont{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <ul>
+                <li><a href="table.html" target="cont">Table</a></li>
+                <li><a href="form.html" target="cont">Form</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <iframe src="table.html" frameborder="0" name="cont" id="cont"></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>
