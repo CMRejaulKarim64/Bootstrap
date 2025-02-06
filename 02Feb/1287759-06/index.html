@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #main{
+            height: 100vh;
+            width: 100%;
+        }
+        #left{
+            height: 100%;
+            width: 20%;
+            float: left;
+            background-color: rgb(199, 221, 214);
+            text-align: center;
+            padding-top: 20px;
+
+        }
+        #right{
+            height: 100%;
+            width: 80%;
+            float: right;
+            background-color: rgb(226, 224, 221);
+            align-items: center;
+        }
+        ul li{
+            padding-top: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="left">
+        <ul>
+            <p>Menu</p>
+            <li><a href="table.html" target="cont">Table</a></li>
+            <li><a href="form.html" target="cont">Form</a></li>
+        </ul>
+    </div>
+    <div id="right">
+        <iframe src="table.html" frameborder="0" name="cont" height="100%" width="100%"></iframe>
+    </div>
+</div>
+    
+</body>
+</html>
