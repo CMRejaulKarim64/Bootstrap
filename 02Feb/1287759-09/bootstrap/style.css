@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    height: 15vh;
+    width: 100%;
+}
+#main{
+    height: 85vh;
+    width: 100%;
+}
+#left{
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-color: rgb(221, 245, 245);
+    text-align: center;
+}
+#right{
+    height: 100%;
+    width: 80%;
+    float: right;
+    background-color: rgb(233, 221, 243);
+    padding-left: 10px;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+/* a:hover{
+    background-color: blue;
+    text-color: rgb(247, 223, 223);
+} */
+li:hover{
+    background-color: rgb(15, 104, 22);
+}
